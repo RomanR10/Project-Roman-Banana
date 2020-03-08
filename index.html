@@ -11,11 +11,21 @@
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Project-Roman-Banana.json", {onProgress: UnityProgress});
     </script>
+	<style>
+	header{
+		overFlow: hidden;
+	}
+	
+	header img{
+		margin-left: 50%;
+		transform: translateX{-50%};
+	}
+	</style>
   </head>
   <body>
 	<div class="header">
-		<img src="/Pictures/twitterBanner_feb2020.jpg"/>
 		<h1>Roman Banana</h1>
+		<img src="/Pictures/twitterBanner_feb2020.jpg"/>
 	</div>
     
 	<div class="webgl-content">
@@ -27,8 +37,4 @@
       </div>
     </div>
   </body>
-  
-  .header img{
-		
-  }
 </html>
